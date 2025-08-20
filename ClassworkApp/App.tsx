@@ -4,56 +4,35 @@ import { Button, Modal, StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 
 export type StackParamList = {
   Home: undefined;
   Details: { itemId: number; otherParam?: string };
   Modal: undefined;
-  Custom: { name: string};
+  Custom: { name: string };
 };
 
 const Stack = createStackNavigator<StackParamList>();
 
+const Drawer = createDrawerNavigator();
+
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen
-          name="Home"
-          options={{ headerShown: true }}
-          component={HomeScreen}
-        />
-        <Stack.Screen
-          name="Details"
-          component={DetailsScreen}
-          options={{
-            headerShown: true,
-            headerTitle: 'My Custom Title',
-            headerTitleStyle: { color: '#bf0000' },
-            headerStyle: { backgroundColor: '#fff444' },
-            headerBackTitle: 'Custom Back',
-          }}
-        />
-        <Stack.Screen
-          name="Modal"
-          component={ModalScreen}
-          options={{ presentation: 'modal' }}
-        />
-        <Stack.Screen
-          name="Custom"
-          options={{ 
-            headerShown: true,
-            headerTitle: "My Custom Page!!!",
-            headerTitleStyle: { color: '#242024' },
-            headerStyle: { backgroundColor: '#bf0000' },
-          }}
-          component={CustomScreen}
-        />
-      </Stack.Navigator>
+      <Drawer.Navigator>
+        <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="Details" component={DetailsScreen} />
+        <Drawer.Screen name="Modal" component={ModalScreen} />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }
+
+
 
 type HomeScreenNavigationProp = StackNavigationProp<StackParamList, 'Home'>;
 
