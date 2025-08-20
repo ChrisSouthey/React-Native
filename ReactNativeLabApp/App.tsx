@@ -51,7 +51,9 @@ function GallaryStack() {
       />
     </Stack.Navigator>
   );
-}
+} 
+
+
 
 const App = () => {
   return (
