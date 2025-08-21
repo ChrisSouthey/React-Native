@@ -5,13 +5,13 @@ import { HomeScreen } from './compenents/HomeScreen';
 import { Details } from './compenents/Details';
 import { PictureModal } from './compenents/PictureModal';
 import { WeatherApp } from './compenents/WeatherApp';
+import ScannerApp from './compenents/ScannerApp';
+import BatteryApp from './compenents/BatteryApp';
+import ProductDetails from './compenents/scannerApp/ProductDetails';
+import Favorites from './compenents//scannerApp/Favorites';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-
-interface ImageData {
-  id: number;
-  url: string;
-}
 
 export type StackParamList = {
   Home: undefined;
@@ -21,6 +21,8 @@ export type StackParamList = {
 
 const Stack = createStackNavigator<StackParamList>();
 const Drawer = createDrawerNavigator();
+const ShopStack = createStackNavigator();
+const ShopTabs = createBottomTabNavigator();
 
 function GallaryStack() {
   return (
@@ -54,6 +56,40 @@ function GallaryStack() {
 } 
 
 
+function ScannerStack() {
+  return (
+    <ShopStack.Navigator>
+      <ShopStack.Screen
+        name="BarCodeScanner"
+        options={{ title: 'Scanner' }}
+        component={ScannerApp}
+      />
+      <ShopStack.Screen
+        name="ProductDetails"
+        options={{ title: 'Product' }}
+        component={ProductDetails}
+      />
+    </ShopStack.Navigator>
+  );
+}
+
+function ScannerTabs() {
+  return (
+    <ShopTabs.Navigator screenOptions={{ headerShown: false }}>
+      <ShopTabs.Screen
+        name="ScannerTab"
+        component={ScannerStack}
+        options={{ title: 'Scanner' }}
+      />
+      <ShopTabs.Screen
+        name="FavoritesTab"
+        component={Favorites}
+        options={{ title: 'Favorites' }}
+      />
+    </ShopTabs.Navigator>
+  );
+}
+
 
 const App = () => {
   return (
@@ -71,6 +107,14 @@ const App = () => {
         <Drawer.Screen
           name="Weather App"
           component={WeatherApp}
+        />
+        <Drawer.Screen
+          name="QR Code Scanner"
+          component={ScannerTabs}
+        />
+        <Drawer.Screen
+          name="Battery App"
+          component={BatteryApp}
         />
       </Drawer.Navigator>
     </NavigationContainer>

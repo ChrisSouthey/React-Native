@@ -26,7 +26,7 @@ export const CurrentWeather = () => {
 };
 
 const styles = StyleSheet.create({
-    container: { alignItems: 'center', marginTop: 50 },
+    container: { alignItems: 'center', marginTop: 50, paddingTop: 50 },
     location: { fontSize: 20, fontWeight: 'bold' },
     icon: { width: 100, height: 100 },
     condition: { fontSize: 18, marginVertical: 5 },

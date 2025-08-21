@@ -26,7 +26,7 @@ export const Forecast = ({ days }: ForecastProps) => {
     }
 
     return (
-        <View style={{ padding: 20 }}>
+        <View style={{ padding: 20, marginTop: 50, }}>
             <Text style={styles.title}>
                 Forecast for {weather.location.name}, {weather.location.region}
             </Text>
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: 50,
     },
     title: {
         fontSize: 18,
