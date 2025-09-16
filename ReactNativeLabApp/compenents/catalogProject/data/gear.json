@@ -1,0 +1,244 @@
+{
+    "gear": [
+        {
+            "id": 1,
+            "name": "Fender Stratocaster",
+            "type": "guitar",
+            "price": 1299,
+            "image": "https://picsum.photos/seed/strat/600",
+            "tags": [
+                "fender",
+                "single-coil",
+                "solid-body"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Fender Telecaster",
+            "type": "guitar",
+            "price": 1149,
+            "image": "https://picsum.photos/seed/tele/600",
+            "tags": [
+                "fender",
+                "single-coil",
+                "twang"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Gibson Les Paul Standard",
+            "type": "guitar",
+            "price": 2499,
+            "image": "https://picsum.photos/seed/lespaulstd/600",
+            "tags": [
+                "gibson",
+                "humbucker",
+                "solid-body"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "PRS Custom 24",
+            "type": "guitar",
+            "price": 3899,
+            "image": "https://picsum.photos/seed/prscustom24/600",
+            "tags": [
+                "prs",
+                "humbucker",
+                "versatile"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ibanez RG550",
+            "type": "guitar",
+            "price": 999,
+            "image": "https://picsum.photos/seed/rg550/600",
+            "tags": [
+                "ibanez",
+                "humbucker",
+                "superstrat"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Epiphone SG Standard",
+            "type": "guitar",
+            "price": 499,
+            "image": "https://picsum.photos/seed/sgstd/600",
+            "tags": [
+                "epiphone",
+                "humbucker",
+                "double-cut"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Jackson Dinky JS22",
+            "type": "guitar",
+            "price": 199,
+            "image": "https://picsum.photos/seed/dinkyjs22/600",
+            "tags": [
+                "jackson",
+                "humbucker",
+                "budget"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Squier Jazzmaster",
+            "type": "guitar",
+            "price": 429,
+            "image": "https://picsum.photos/seed/jazzmaster/600",
+            "tags": [
+                "squier",
+                "offset",
+                "single-coil"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Boss DS-1 Distortion",
+            "type": "pedal",
+            "price": 59,
+            "image": "https://picsum.photos/seed/ds1/600",
+            "tags": [
+                "boss",
+                "distortion",
+                "classic"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Boss SD-1 Super Overdrive",
+            "type": "pedal",
+            "price": 62,
+            "image": "https://picsum.photos/seed/sd1/600",
+            "tags": [
+                "boss",
+                "overdrive",
+                "yellow"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Ibanez Tube Screamer TS9",
+            "type": "pedal",
+            "price": 109,
+            "image": "https://picsum.photos/seed/ts9/600",
+            "tags": [
+                "ibanez",
+                "overdrive",
+                "mid-hump"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Electro-Harmonix Big Muff Pi",
+            "type": "pedal",
+            "price": 89,
+            "image": "https://picsum.photos/seed/bigmuff/600",
+            "tags": [
+                "ehx",
+                "fuzz",
+                "sustain"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "MXR Phase 90",
+            "type": "pedal",
+            "price": 79,
+            "image": "https://picsum.photos/seed/phase90/600",
+            "tags": [
+                "mxr",
+                "modulation",
+                "phaser"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "TC Electronic Hall of Fame Reverb",
+            "type": "pedal",
+            "price": 149,
+            "image": "https://picsum.photos/seed/hofreverb/600",
+            "tags": [
+                "tc",
+                "reverb",
+                "ambient"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Marshall DSL40C",
+            "type": "amp",
+            "price": 749,
+            "image": "https://picsum.photos/seed/dsl40c/600",
+            "tags": [
+                "marshall",
+                "tube",
+                "combo"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Fender Blues Junior IV",
+            "type": "amp",
+            "price": 699,
+            "image": "https://picsum.photos/seed/bluesjunior/600",
+            "tags": [
+                "fender",
+                "tube",
+                "combo"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Vox AC15C1",
+            "type": "amp",
+            "price": 799,
+            "image": "https://picsum.photos/seed/ac15/600",
+            "tags": [
+                "vox",
+                "tube",
+                "british"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Orange Rocker 15",
+            "type": "amp",
+            "price": 799,
+            "image": "https://picsum.photos/seed/rocker15/600",
+            "tags": [
+                "orange",
+                "tube",
+                "combo"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Boss Katana 100 MkII",
+            "type": "amp",
+            "price": 379,
+            "image": "https://picsum.photos/seed/katana100/600",
+            "tags": [
+                "boss",
+                "modeling",
+                "combo"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Blackstar HT Club 40 MkII",
+            "type": "amp",
+            "price": 799,
+            "image": "https://picsum.photos/seed/htclub40/600",
+            "tags": [
+                "blackstar",
+                "tube",
+                "combo"
+            ]
+        }
+    ]
+}
