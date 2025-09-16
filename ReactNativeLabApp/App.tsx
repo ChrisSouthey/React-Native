@@ -6,11 +6,13 @@ import { Details } from './compenents/Details';
 import { PictureModal } from './compenents/PictureModal';
 import { WeatherApp } from './compenents/WeatherApp';
 import ScannerApp from './compenents/ScannerApp';
-import BatteryApp from './compenents/BatteryApp';
+import AccelApp from './compenents/BatteryApp';
 import ProductDetails from './compenents/scannerApp/ProductDetails';
 import Favorites from './compenents//scannerApp/Favorites';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import BatteryApp from './compenents/BatteryShakeApp';
+
 
 
 export type StackParamList = {
@@ -111,6 +113,10 @@ const App = () => {
         <Drawer.Screen
           name="QR Code Scanner"
           component={ScannerTabs}
+        />
+        <Drawer.Screen
+          name="Accel App"
+          component={AccelApp}
         />
         <Drawer.Screen
           name="Battery App"
