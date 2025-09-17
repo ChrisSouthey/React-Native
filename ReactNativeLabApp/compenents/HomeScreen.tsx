@@ -11,6 +11,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { StackParamList } from '../App';
+import Animated, { useAnimatedScrollHandler, useAnimatedStyle, useSharedValue } from 'react-native-reanimated';
 
 type HomeScreenNavigationProp = StackNavigationProp<StackParamList, 'Home'>;
 
@@ -28,17 +29,44 @@ export const HomeScreen = () => {
         }))
     );
 
+    const ITEM_SIZE = 120;                
+
     const [searchTerm, setSearchTerm] = useState('');
 
     const filteredImages = images.filter((img) =>
         img.id.toString().includes(searchTerm)
     );
 
+    const marginVertical = useSharedValue(2);
+
+    const scrollHandler = useAnimatedScrollHandler({
+        onScroll: (event) => {
+            const newMargin = 2 + event.contentOffset.y / 30;
+            if (newMargin < 2) {
+                marginVertical.value = 2;
+            } else if (newMargin > 20) {
+                marginVertical.value = 20;
+            } else {
+                marginVertical.value = newMargin;
+            }
+        },
+    });
+
+    const animatedStyle = useAnimatedStyle(() => {
+
+        const spinDeg = (marginVertical.value - 2) * 180;
+
+        return {
+            marginVertical: marginVertical.value,
+            transform: [{ rotate: `${spinDeg}deg` }],
+        };
+    });
+
     const renderItem = ({ item }: { item: ImageData }) => (
         <TouchableOpacity
             onPress={() => navigation.navigate('Details', { url: item.url })}
         >
-            <Image source={{ uri: item.url }} style={styles.imageThumbnail} />
+            <Animated.Image source={{ uri: item.url }} sharedTransitionTag={`tag-${item.url}`} style={[styles.imageThumbnail, animatedStyle]} />
         </TouchableOpacity>
     );
 
@@ -50,7 +78,8 @@ export const HomeScreen = () => {
                 value={searchTerm}
                 onChangeText={setSearchTerm}
             />
-            <FlatList
+            <Animated.FlatList
+                onScroll={scrollHandler}
                 data={filteredImages}
                 renderItem={renderItem}
                 keyExtractor={(item) => item.id.toString()}
