@@ -12,6 +12,9 @@ import Favorites from './compenents//scannerApp/Favorites';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import BatteryApp from './compenents/BatteryShakeApp';
+import { CatalogTabs } from './compenents/catalogProject/CatalogNav'
+
+
 
 
 
@@ -55,7 +58,7 @@ function GallaryStack() {
       />
     </Stack.Navigator>
   );
-} 
+}
 
 
 function ScannerStack() {
@@ -97,8 +100,8 @@ const App = () => {
   return (
     <NavigationContainer>
       <Drawer.Navigator
-        screenOptions={{ 
-          headerShown: false, 
+        screenOptions={{
+          headerShown: false,
           drawerPosition: 'right',
         }}
       >
@@ -121,6 +124,10 @@ const App = () => {
         <Drawer.Screen
           name="Battery App"
           component={BatteryApp}
+        />
+        <Drawer.Screen
+          name="Guitar Catalog"
+          component={CatalogTabs}
         />
       </Drawer.Navigator>
     </NavigationContainer>
