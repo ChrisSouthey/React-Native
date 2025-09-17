@@ -485,7 +485,7 @@
             "name": "Fender 65 Twin Reverb",
             "type": "amp",
             "price": 1599,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Fender_Twin_Reverb_65.jpg",
+            "image": "https://www.fender.com/cdn-cgi/image/format=auto,resize=height=auto,width=850/https://www.fmicassets.com/Damroot/eCommPNG/10002/0217400000_amp_frt_001_nr.png",
             "tags": [
                 "fender",
                 "tube",
@@ -497,7 +497,7 @@
             "name": "Marshall JCM800 2203",
             "type": "amp",
             "price": 2299,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Marshall_JCM800_%282203%29.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/482713000000000-01-2000x2000.jpg",
             "tags": [
                 "marshall",
                 "head",
@@ -509,7 +509,7 @@
             "name": "Vox AC30C2",
             "type": "amp",
             "price": 1199,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vox_AC30C2.jpg",
+            "image": "https://m.media-amazon.com/images/I/81t8OAQYNML._UF1000,1000_QL80_.jpg",
             "tags": [
                 "vox",
                 "tube",
@@ -521,7 +521,7 @@
             "name": "Mesa Boogie Mark V 35",
             "type": "amp",
             "price": 2399,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mesa%20Boogie%20Mark%20V%2035.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L84198000001000-00-2000x2000.jpg",
             "tags": [
                 "mesa",
                 "high-gain",
@@ -533,7 +533,7 @@
             "name": "Peavey 6505+ 112 Combo",
             "type": "amp",
             "price": 799,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peavey%206505%2B%20112.jpg",
+            "image": "https://peavey.com/wp-content/uploads/2023/09/492.jpg",
             "tags": [
                 "peavey",
                 "high-gain",
@@ -545,7 +545,7 @@
             "name": "Blackstar HT-5R MkII",
             "type": "amp",
             "price": 499,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackstar%20HT-5R%20MkII.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M12508000001000-00-600x600.jpg",
             "tags": [
                 "blackstar",
                 "tube",
@@ -557,7 +557,7 @@
             "name": "PRS Archon 50 Combo",
             "type": "amp",
             "price": 1199,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PRS%20Archon%2050.jpg",
+            "image": "https://i.ebayimg.com/images/g/j5wAAOSwilVmhWEE/s-l1200.jpg",
             "tags": [
                 "prs",
                 "high-gain",
@@ -569,7 +569,7 @@
             "name": "Orange TH30 Combo",
             "type": "amp",
             "price": 1199,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orange%20TH30%20Combo.jpg",
+            "image": "https://rvb-img.reverb.com/image/upload/s--E4CR_ok7--/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_auto:eco,w_296/v1468430176/ydbetf3tff1ih8dtctop.jpg",
             "tags": [
                 "orange",
                 "tube",
@@ -581,7 +581,7 @@
             "name": "Roland JC-40 Jazz Chorus",
             "type": "amp",
             "price": 599,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Roland_JC-40_Jazz_Chorus.jpg",
+            "image": "https://rvb-img.reverb.com/image/upload/s--cUMReNSh--/t_card-square/v1479525439/v3v71gvotod6ona3w87c.png",
             "tags": [
                 "roland",
                 "stereo",
@@ -593,7 +593,7 @@
             "name": "Line 6 Catalyst 100",
             "type": "amp",
             "price": 399,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Line%206%20Catalyst%20100.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M05827000001000-00-2000x2000.jpg",
             "tags": [
                 "line6",
                 "modeling",
@@ -605,7 +605,7 @@
             "name": "Rickenbacker 330",
             "type": "guitar",
             "price": 1999,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Rickenbacker_330.jpg",
+            "image": "https://r2.gear4music.com/media/54/545882/600/preview.jpg",
             "tags": [
                 "rickenbacker",
                 "semi-hollow",
@@ -617,7 +617,7 @@
             "name": "Gibson ES-335",
             "type": "guitar",
             "price": 3499,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Gibson_ES-335_DOT.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M08007000003000-00-600x600.jpg",
             "tags": [
                 "gibson",
                 "semi-hollow",
@@ -629,7 +629,7 @@
             "name": "Fender Jaguar",
             "type": "guitar",
             "price": 1499,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Fender_Jaguar_%28MIJ%29.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L91877000003000-00-600x600.jpg",
             "tags": [
                 "fender",
                 "offset",
@@ -641,7 +641,7 @@
             "name": "Ibanez AZ2204",
             "type": "guitar",
             "price": 1399,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibanez%20AZ2204.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/K76903000003000-00-2000x2000.jpg",
             "tags": [
                 "ibanez",
                 "hss",
@@ -653,7 +653,7 @@
             "name": "Music Man JP15",
             "type": "guitar",
             "price": 3299,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Music%20Man%20JP15.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L97785000003000-00-2000x2000.jpg",
             "tags": [
                 "musicman",
                 "humbucker",
@@ -665,7 +665,7 @@
             "name": "Danelectro 59M NOS+",
             "type": "guitar",
             "price": 599,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danelectro%2059M%20NOS%2B.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L52725000006000-04-600x600.jpg",
             "tags": [
                 "danelectro",
                 "lipstick",
@@ -677,7 +677,7 @@
             "name": "Gretsch G5420T Electromatic",
             "type": "guitar",
             "price": 899,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gretsch_G5420T.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L88823000001000-00-600x600.jpg",
             "tags": [
                 "gretsch",
                 "hollow-body",
@@ -689,7 +689,7 @@
             "name": "Yamaha Revstar RS502T",
             "type": "guitar",
             "price": 799,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamaha%20Revstar%20RS502T.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/J30140000001000-00-600x600.jpg",
             "tags": [
                 "yamaha",
                 "p90",
@@ -701,7 +701,7 @@
             "name": "Squier Classic Vibe Tele Thinline",
             "type": "guitar",
             "price": 449,
-            "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Squier%20Classic%20Vibe%20Tele%20Thinline.jpg",
+            "image": "https://rvb-img.reverb.com/image/upload/s--xftUD2H---/t_card-square/v1751049711/xylycfbjxu8sbdyl4l4v.jpg",
             "tags": [
                 "squier",
                 "semi-hollow",
@@ -713,7 +713,7 @@
             "name": "Epiphone Casino",
             "type": "guitar",
             "price": 699,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Epiphone_Casino_2006.jpg",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M00981000001000-00-600x600.jpg",
             "tags": [
                 "epiphone",
                 "hollow-body",
